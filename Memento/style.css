@@ -1,0 +1,195 @@
+/*
+Theme Name: Memento
+Theme URI: localhost
+Description: Mementon kiltasivujen teema
+Version: 1.0
+Author: Minna Lavi
+*/
+
+#PageBackground{
+	background: url(images/pattern.png) top center repeat;
+	display: block;
+	left: 0;
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+	
+div.panel-body a{
+	color:#881a00;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+	
+h1.site-title{
+	color:#881a00;
+	font-family: 'Ubuntu', sans-serif;
+	}
+	
+.nav a{
+	font-family: 'Ubuntu', sans-serif;
+	margin-right:15px;
+	font-variant:small-caps;
+	}
+	
+.jumbotron{
+	margin-top: -20px;
+	}
+	
+.jumbotron p{
+	text-align:center;
+	}
+	
+.push{
+	height: 60px;
+	}
+	
+#artikkeli h3{
+	margin-top:10px;
+	}
+	
+.date, .author{
+	color:#777;
+	font-size:small;
+	}
+	
+#artikkeli a, li a{
+	color:#881a00;
+	font-family: 'Ubuntu', sans-serif;
+	}
+	
+#artikkeli a:hover, li a:hover{
+	color:#cc2a04;
+	}
+	
+#artikkeli{
+	border-color:#080808;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:0px;
+	
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.37) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.4)), color-stop(100%,rgba(0,0,0,0.37))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.37) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.37) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.37) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.37) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#5e000000',GradientType=0 ); /* IE6-9 */
+	}
+	
+.entry.well{
+	font-size:small;
+	border-radius:0px;
+	border-color:#080808;
+	background-color:#222222;	
+	}
+	
+.entry.well p{
+	color:#777;
+	}
+	
+#sidebar{
+	padding-left:10px;
+	border-color:#080808;
+	border-radius:0px;
+	font-size:small;
+	line-height:normal;
+	background:#222222;
+	}
+	
+#sidebar h4{
+	color:#777;
+	font-family: 'Ubuntu', sans-serif;
+	font-variant:small-caps;
+	margin-top:-5px;
+	margin-bottom:5px;
+	}
+	
+#sidebar ul{
+	color:#777;
+	margin-bottom:0px;
+	list-style:none;
+	padding:0;
+	}
+	
+.screen-reader-text{
+	font-size:18px;
+	font-weight:normal;
+	font-family: 'Ubuntu', sans-serif;
+	font-variant:small-caps;
+	margin-right:10px;
+	color:#777;
+	}
+	
+#searchsubmit{
+	font-family: 'Ubuntu', sans-serif;
+	}
+	
+input{
+	background-color:#777;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000;
+	}
+	
+#kommentti{
+	list-style-type:none;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:5px;
+	font-size: small;
+	border-radius:0px;
+	border-color:#080808;
+	background:#222222;
+	}
+	
+#kommentti cite{
+	color:#777;
+	}
+
+#pelaajat{
+	border-color:#080808;
+	border-radius:0px;
+	background:#222222;
+	}
+	
+#pelaajat h4{
+	color:#777;
+	font-family: 'Ubuntu', sans-serif;
+	font-variant:small-caps;
+	}
+	
+.comment-form-comment input, select, textarea {
+	width: 100%;
+	}
+	
+textarea#comment{
+	background-color:#777;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000;
+	}
+	
+#comment{
+	color:#222222;
+	}
+
+input#submit{
+	font-family: 'Ubuntu', sans-serif;
+	font-variant:small-caps;
+	color:#222222;
+	}
+	
+#footer{
+	height:40px;
+	width: 100%;
+    position:absolute; bottom: 0; center: 0;
+	background-color:#222222;
+	border-color:#080808;
+	}
+	
+#footer p{
+	color:#777;
+	}
